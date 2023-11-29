@@ -1,0 +1,37 @@
+#navbar {
+    overflow: hidden;
+    background-color: #b31818;
+  }
+  
+  #navbar a {
+    float: left;
+    font-weight: 900;
+    display: block;
+    color: #0ac400;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+#repeated-name {
+    padding: 10px;
+}
+
+    #h1 {
+        font-weight: 900;
+    }
+
